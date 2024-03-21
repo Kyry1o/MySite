@@ -1,0 +1,365 @@
+*,
+*::after, 
+*::before{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    min-width: 1400px;
+    background-image: linear-gradient(
+        to right top,
+        #ae6439,
+        #bc7341,
+        #c98249,
+        #d69151,
+        #e3a15a);
+        color: #ffffff;
+        min-height: 100vh;
+        position: relative;
+        font-family: "Dm Sans", sans-serif;
+}
+/*header*/
+.header{
+    width: 100%;
+}
+.header_wrapper{
+    width: 1280px;
+    margin: 0 auto;
+}
+.header_content{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.header_name{
+
+}
+.header_name-text{
+    font-size: 32px;
+    font-weight: bold;
+    cursor: default;
+}
+.header_menu{
+    display: flex;
+    justify-content: space-between;
+}
+.header_menu-item{
+    margin: 0 20px;
+}
+.header_menu-href{
+    color: inherit;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/*hello*/
+.hello {
+    width: 100%;
+}
+.hello_wrapper {
+    width: 1280px;
+    margin: 0 auto;
+}
+.hello_content {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+}
+.hello_left {
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.hello_left-content {
+}
+.hello_title {
+    font-size: 48px;
+    font-weight: bold;
+}
+.hello_name {
+    margin-top: 20px;
+    font-size: 20px;
+}
+.hello_buttons {
+    margin-top: 40px;
+}
+.hello_button {
+    width: 200px;
+    height: 60px;
+    color: inherit;
+    font-size: 20px;
+    background-color: unset;
+    border: 1px solid #ffffff;
+    margin: 0 20px 0 0;
+    cursor: pointer;
+    transition: 0.4s all;
+}
+.hello_button:hover{
+    transform: scale(1.05);
+}
+.hello_button--accent{
+    background-color: #77493D;
+    border-color: #77493D;
+}
+.hello_right {
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.hello_photo-block {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 600px;
+    height: 600px;
+    position: relative;
+}
+.hello_photo{
+    width: 100%;
+    height: 100%;
+}
+
+/*about*/
+.about {
+    width: 100%;
+}
+.about_wrapper {
+    width: 1280px;
+    margin: 0 auto;
+}
+.about_content {
+    padding: 40px 0;
+}
+.about_title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+}
+.about_text {
+    margin-top: 40px;
+    font-size: 20px;
+    text-align: left;
+}
+
+
+/*contact*/
+.contacts {
+    width: 100%;
+}
+.contacts_wrapper {
+    width: 1150px;
+    margin: 0 auto;
+}
+.contacts_content {
+    padding: 60px 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+.contacts_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contacts_point-block {
+    width: 62px;
+    height: 62px;
+    background-color: #8686867c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contacts_point-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #77493D;
+}
+.contacts_item-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+}
+.contacts_item-info {
+    margin-top: 4px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*skill*/
+.skill-plate {
+    width: 100%;
+}
+.skill-plate_wrapper {
+    width: 1280px;
+    margin: 0 auto;
+}
+.skill-plate_content {
+    padding: 40px 0;
+}
+.skill-plate_title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+}
+.skill-plate_item-block {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+.skill-plate_item{
+    width: 413px;
+    background-color: #8686867c;
+    padding: 40px;
+
+}
+.skill-plate_items-image-block {
+    width: 70px;
+    height: 50px;
+    position: relative;
+}
+.skill-plate_items-image {
+    height: 100%;
+    width: 100%;
+}
+.skill-plate_item-text {
+    margin-top: 20px;
+    font-size: 36px;
+}
+
+/*skill*/
+.main-skills {
+    width: 100%;
+}
+.main-skills_wrapper {
+    width: 1280px;
+    margin: 0 auto;
+}
+.main-skills_content {
+    padding: 60px 0;
+}
+.main-skills_title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+}
+.main-skills_block {
+    margin-top: 40px;
+    padding: 40px 90px;
+    background-color: #8686867c;
+    display: flex;
+    justify-content: space-between;
+}
+.main-skills_item {
+    
+}
+.main-skills_item-precent {
+    font-size: 72px;
+    font-weight: bold;
+    text-align: center;
+}
+.main-skills_item-title {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #77493D;
+}
+
+/*contact*/
+.contact-form {
+    width: 100%;
+}
+.contact-form_wrapper {
+    width: 1280px;
+    margin: 0 auto;
+}
+.contact-form_content {
+    padding: 40px 0;
+}
+.contact-form_title {
+    font-size: 48px;
+    font-weight: bold;
+    text-align: left;
+}
+.contact-form_form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact-form_input-block {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contact-form_input {
+    font-family: "Dm Sans", sans-serif;
+    width: 550px;
+    margin: 20px 0;
+    background-color: unset;
+    color: #272727;
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 1px solid #272727;
+}
+.contact-form_input:focus{
+    outline: unset;
+    border-color: #1921D3;
+    color: #1921D3;
+}
+.contact-form_input::placeholder{
+    color: #272727;
+}
+.contact-form_textarea {
+    margin: 20px 0;
+    font-family: "Dm Sans", sans-serif;
+    background-color: unset;
+    width: 100%;
+    color: #272727;
+    font-weight: 200;
+    font-size: 20px;
+    border: 1px solid #272727;
+    padding: 10px 15px;
+}
+
+
+.contact-form_textarea:focus{
+    outline: unset;
+    border-color: #1921D3;
+    color: #1921D3;
+}
+.contact-form_textarea::placeholder{
+    color: #272727;
+}
+
+.contact-form_form-button{
+    width: 200px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: #77493D;
+    color: inherit;
+}
+
+
+/*footer*/
+.footer {
+    width: 100%;
+}
+.footer_wrapper {
+    width: 1280px;
+    margin: 0 auto;
+}
+.footer_content {
+    padding: 40px 0;
+}
+.footer_copyright {
+    font-size: 14px;
+    color: #272727;
+    text-align: center;
+}
